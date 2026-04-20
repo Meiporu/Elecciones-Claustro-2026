@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claustro 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Navigation & Language Selector -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-title">
+            <span data-i18n="nav.title">Vox nostra et futurum nostrum
+            </span>
+        </div>
+        <div class="nav-right">
+          <a href="#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
+          <div class="language-selector">
+            <button class="lang-btn active" data-lang="es">ES</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="gl">GL</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title" data-i18n="hero.title">Manuel Leonardo Torrecilla Rio</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">La voz que 'nós' necesitamos</p>
+          <button class="cta-button" onclick="scrollToSection('programa')" data-i18n="hero.cta">Ver propuesta</button>
+        </div>
+        <div class="hero-image">
+          <div class="logo-placeholder">
+            <div class="logo-text"></div>
+            <img src="/src/Universidad-de-Vigo.png">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <section class="nav-section">
+      <div class="nav-buttons">
+        <button class="nav-btn" onclick="scrollToSection('presentacion')">
+          <div class="nav-icon"></div>
+          <div class="nav-label" data-i18n="sections.presentation">Presentación</div>
+        </button>
+        <button class="nav-btn" onclick="scrollToSection('experiencia')">
+          <div class="nav-icon"></div>
+          <div class="nav-label" data-i18n="sections.experience">Experiencia</div>
+        </button>
+        <button class="nav-btn" onclick="scrollToSection('programa')">
+          <div class="nav-icon"></div>
+          <div class="nav-label" data-i18n="sections.program">Programa Electoral</div>
+        </button>
+        <button class="nav-btn" onclick="scrollToSection('logros')">
+          <div class="nav-icon"></div>
+          <div class="nav-label" data-i18n="sections.achievements">Logros</div>
+        </button>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="content">
+      <!-- Presentation Section -->
+      <section id="presentacion" class="section">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="sections.presentation">Presentación</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content presentation-grid">
+          <div class="card presentation-card">
+            <h3 data-i18n="presentation.who_title">¿Quién soy?</h3>
+            <p data-i18n="presentation.who_text">Soy Manuel Torrecilla, alumno de 4º año de ingeniería informática. Adoro las redes, la ciberseguridad y las matemáticas.</p>
+          </div>
+          <div class="presentation-photo">
+            <img src="src/photo.png">
+          </div>
+        </div>
+        <div class="presentation-full">
+          <div class="card">
+            <h3 data-i18n="presentation.why_title">¿Por qué me presento?</h3>
+            <p data-i18n="presentation.why_text">Tras 10 años en representación, y 4 de ellos en la Universidad de Vigo, detecto una clara y evidente necesidad de ponerme en pie una vez más y luchar por los derechos que los alumnos necesitamos de forma urgente. Vivienda, ayudas, movilidad, igualdad y calidad son solo algunos de los temas que muchos ignoramos pero que dificultan el poder estudiar en condiciones que permitan nuestro mejor desempeño</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experiencia" class="section">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="sections.experience">Experiencia</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="carousel-content" id="experienceCarousel">
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item1_title">Tesorero del Consejo de la Universidad</h4>
+            <p class="carousel-date" data-i18n="experience.item1_date">2025 - Actualidad</p>
+            <p data-i18n="experience.item1_text">Responsable de la gestión financiera y administración de recursos del Consejo de Estudiantes, UVIGO.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item2_title">Claustral Universitario</h4>
+            <p class="carousel-date" data-i18n="experience.item2_date">2024 - Actualidad</p>
+            <p data-i18n="experience.item2_text">Miembro del máximo órgano de gobierno de la Universidad de Vigo con representación estudiantil.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item14_title">Consejo de gobierno</h4>
+            <p class="carousel-date" data-i18n="experience.item14_date">2024 - Actualidad</p>
+            <p data-i18n="experience.item14_text">Miembro del Consejo de Gobierno de la Universidad de Vigo</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item3_title">Consejo de Estudiantes UVIGO</h4>
+            <p class="carousel-date" data-i18n="experience.item3_date">2024 - Actualidad</p>
+            <p data-i18n="experience.item3_text">Miembro representante del órgano colegiado de participación estudiantil en la institución.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item4_title">Delegado de Curso</h4>
+            <p class="carousel-date" data-i18n="experience.item4_date">2022 - Actualidad</p>
+            <p data-i18n="experience.item4_text">Representante estudiantil del Grado en Ingeniería Informática, responsable de mediación académica.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item5_title">Consejo de Departamento</h4>
+            <p class="carousel-date" data-i18n="experience.item5_date">2024 - Actualidad</p>
+            <p data-i18n="experience.item5_text">Miembro del Consejo de Departamento de Ingeniería de Sistemas y Automática, UVIGO.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item6_title">Comisión Permanente ESEI</h4>
+            <p class="carousel-date" data-i18n="experience.item6_date">2025 - Actualidad</p>
+            <p data-i18n="experience.item6_text">Miembro de la comisión permanente de la Escuela Superior de Ingeniería Informática.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item7_title">Comisión Acoso Sexual</h4>
+            <p class="carousel-date" data-i18n="experience.item7_date">2024 - Actualidad</p>
+            <p data-i18n="experience.item7_text">Miembro de la comisión contra el Acoso Sexual y por razón de Sexo, UVIGO.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item8_title">Comisión Reconocimiento Créditos</h4>
+            <p class="carousel-date" data-i18n="experience.item8_date">2025 - Actualidad</p>
+            <p data-i18n="experience.item8_text">Miembro de la comisión de reconocimiento de créditos de la ESEI.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item9_title">Delegación Informática + IA</h4>
+            <p class="carousel-date" data-i18n="experience.item9_date">2025 - Actualidad</p>
+            <p data-i18n="experience.item9_text">Miembro de la delegación de alumnos de Informática e Inteligencia Artificial (ESEIDA), UVIGO.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item10_title">Evento Internacional ESEE</h4>
+            <p class="carousel-date" data-i18n="experience.item10_date">2024</p>
+            <p data-i18n="experience.item10_text">Miembro internacional de apoyo logístico-cultural en la 15ª Escuela de Estudiantes de Electrónica.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item11_title">Delegado de Clase Bachillerato</h4>
+            <p class="carousel-date" data-i18n="experience.item11_date">2020 - 2022</p>
+            <p data-i18n="experience.item11_text">Delegado de clase en Bachillerato, IES Valle Inclán.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item12_title">Consejo Gobernanza Bachillerato</h4>
+            <p class="carousel-date" data-i18n="experience.item12_date">2020 - 2022</p>
+            <p data-i18n="experience.item12_text">Miembro del Consejo de Gobernanza estudiantil en Bachillerato, IES Valle Inclán.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item13_title">Delegado de Curso ESO</h4>
+            <p class="carousel-date" data-i18n="experience.item13_date">2016 - 2020</p>
+            <p data-i18n="experience.item13_text">Delegado de curso en Educación Secundaria Obligatoria, Sagrado Corazón de Placeres.</p>
+          </div>
+          <div class="carousel-item">
+            <h4 data-i18n="experience.item15_title">Representante en la estudent board ATHENA</h4>
+            <p class="carousel-date" data-i18n="experience.item15_date">2024 - Actualidad</p>
+            <p data-i18n="experience.item15_text">Miembro y representante de la Uvigo en la alianza europea ATHENA</p>
+          </div>
+        </div>
+        <div class="carousel-nav-container">
+          <button class="carousel-nav-btn" onclick="moveCarousel('experienceCarousel', -1)">‹</button>
+          <button class="carousel-nav-btn" onclick="moveCarousel('experienceCarousel', 1)">›</button>
+        </div>
+      </section>
+
+      <!-- Program Section -->
+      <section id="programa" class="section">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="sections.program">Programa Electoral</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content grid-2">
+          <div class="program-card">
+            <div class="program-icon">🔍</div>
+            <h3 data-i18n="program.transparency_title">Transparencia Radical</h3>
+            <p data-i18n="program.transparency_text">Información accesible sobre decisiones académicas, uso de recursos y proyectos en marcha.</p>
+          </div>
+          <div class="program-card">
+            <div class="program-icon">🤝</div>
+            <h3 data-i18n="program.participation_title">Participación Activa</h3>
+            <p data-i18n="program.participation_text">Mecanismos directos para que el estudiantado proponga ideas y vote en decisiones importantes.</p>
+          </div>
+          <div class="program-card">
+            <div class="program-icon">📚</div>
+            <h3 data-i18n="program.quality_title">Calidad Docente</h3>
+            <p data-i18n="program.quality_text">Propuestas para fomentar retroalimentación constructiva y mejora continua en planes de estudio.</p>
+          </div>
+          <div class="program-card">
+            <div class="program-icon">💙</div>
+            <h3 data-i18n="program.services_title">Servicios Estudiantiles</h3>
+            <p data-i18n="program.services_text">Mayor atención a asesoría académica, apoyo mental y movilidad dentro del campus.</p>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="programa-electoral.html" class="cta-button">Ver Programa Electoral Completo</a>
+        </div>
+      </section>
+
+      <!-- Achievements Section -->
+      <section id="logros" class="section">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="sections.achievements">Logros</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="carousel-content" id="achievementsCarousel">
+          <div class="carousel-item">
+            <div class="carousel-number">1</div>
+            <h4 data-i18n="achievements.item1_title">Extensión Horarios Bibliotecas</h4>
+            <p data-i18n="achievements.item1_text">Aprobación de la extensión de horarios de las bibliotecas de la UVIGO para mejorar acceso a espacios de estudio.</p>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-number">2</div>
+            <h4 data-i18n="achievements.item2_title">Posicionamiento sobre Becas</h4>
+            <p data-i18n="achievements.item2_text">Aprobación de posicionamiento institucional sobre política de becas en CREUP.</p>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-number">3</div>
+            <h4 data-i18n="achievements.item3_title">Garantía de Calidad Académica</h4>
+            <p data-i18n="achievements.item3_text">Aprobación de posicionamiento sobre garantía de calidad en programas académicos en CREUP.</p>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-number">4</div>
+            <h4 data-i18n="achievements.item4_title">Clases de Refuerzo Bachillerato</h4>
+            <p data-i18n="achievements.item4_text">Aprobación de la extensión de clases de refuerzo en programas de Bachillerato.</p>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-number">5</div>
+            <h4 data-i18n="achievements.item5_title">Plan Recuperación Pandemia</h4>
+            <p data-i18n="achievements.item5_text">Integración de plan de recuperación académica durante la pandemia COVID-19.</p>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-number">6</div>
+            <h4 data-i18n="achievements.item6_title">Representante Juvenil Xunta</h4>
+            <p data-i18n="achievements.item6_text">Participación como representante juvenil en órganos consultivos de la Xunta de Galicia.</p>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-number">7</div>
+            <h4 data-i18n="achievements.item7_title">Estabilidad económica</h4>
+            <p data-i18n="achievements.item7_text">Eliminación de la deuda pública del CEUVI.</p>
+          </div>
+        </div>
+        <div class="carousel-nav-container">
+          <button class="carousel-nav-btn" onclick="moveCarousel('achievementsCarousel', -1)">‹</button>
+          <button class="carousel-nav-btn" onclick="moveCarousel('achievementsCarousel', 1)">›</button>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contacto" class="section contact-section">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="sections.contact">Contacto</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content">
+          <div class="contact-box">
+            <h3 data-i18n="contact.title">¿Preguntas o sugerencias?</h3>
+            <p data-i18n="contact.subtitle">Me encantaría escuchar tus ideas y propuestas</p>
+            <div class="contact-methods">
+              <a href="mailto:manu@esei.uvigo.es" class="contact-method">
+                <span class="contact-icon">📧</span>
+                <span data-i18n="contact.email">Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p data-i18n="footer.text">Candidato a Claustro - Manuel Torrecilla</p>
+        <p class="footer-secondary">© 2026 - Vox nostra, futurum nostrum</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+  

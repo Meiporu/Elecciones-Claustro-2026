@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programa Electoral - Claustro 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Navigation & Language Selector -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-title">
+          <a href="index.html" style="text-decoration: none; color: inherit;">
+            <span data-i18n="nav.title">Tu voz cuenta</span>
+          </a>
+        </div>
+        <div class="nav-right">
+          <a href="index.html#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
+          <div class="language-selector">
+            <button class="lang-btn active" data-lang="es">ES</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="gl">GL</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+      <section class="section program-coming-soon">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="sections.program">Programa Electoral</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="coming-soon-container">
+          <div class="coming-soon-box">
+            <h3 class="coming-soon-title" data-i18n="program.coming_soon_title">¡Próximamente!</h3>
+            <p class="coming-soon-text" data-i18n="program.coming_soon_text">El programa electoral se descubrirá el Día 22 a las 18:00 Hora española</p>
+            <div class="countdown-info">
+              <p style="font-size: 0.9rem; margin-top: 1.5rem;">22 de Abril de 2026 • 18:00 CET</p>
+            </div>
+            <a href="index.html" class="cta-button" style="display: inline-block; margin-top: 2rem;">Volver al inicio</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p data-i18n="footer.text">Elecciones Claustro 2026 • Manuel Torrecilla</p>
+        <p class="footer-secondary">© 2026 - Vox nostra, futurum nostrum</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
