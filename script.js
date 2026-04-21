@@ -10,7 +10,7 @@ function moveCarousel(carouselId, direction) {
   if (item) {
     const itemWidth = item.offsetWidth;
     const gapWidth = 24;
-    const scrollAmount = (itemWidth + gapWidth) * 2; 
+    const scrollAmount = (itemWidth + gapWidth); 
     carousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
   }
 }

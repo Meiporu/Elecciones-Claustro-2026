@@ -17,7 +17,7 @@
           </a>
         </div>
         <div class="nav-right">
-          <a href="index.html#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
+          <a href="#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
           <div class="language-selector">
             <button class="lang-btn active" data-lang="es">ES</button>
             <button class="lang-btn" data-lang="en">EN</button>
@@ -29,23 +29,145 @@
 
     <!-- Main Content -->
     <main class="content">
-      <section class="section program-coming-soon">
+      <!-- Program Section -->
+      <section class="section">
         <div class="section-header">
           <h2 class="section-title" data-i18n="sections.program">Programa Electoral</h2>
           <div class="section-divider"></div>
         </div>
-        <div class="coming-soon-container">
-          <div class="coming-soon-box">
-            <h3 class="coming-soon-title" data-i18n="program.coming_soon_title">¡Próximamente!</h3>
-            <p class="coming-soon-text" data-i18n="program.coming_soon_text">El programa electoral se descubrirá el Día 22 a las 18:00 Hora española</p>
-            <div class="countdown-info">
-              <p style="font-size: 0.9rem; margin-top: 1.5rem;">22 de Abril de 2026 • 18:00 CET</p>
+        
+        <!-- Timeline Vertical -->
+          <div class="timeline-item">
+            <div class="timeline-card" onclick="toggleExpand(this)">
+              <div class="timeline-header">
+                <div class="card-title-section">
+                  <h3 class="program-title" data-i18n="program.services_title">Servicios Estudiantiles y Salud Mental</h3>
+                </div>
+                <div class="card-summary-section">
+                  <p class="program-preview" data-i18n="program.services_resume">Asesoría académica, apoyo psicológico y mejora de instalaciones.</p>
+                  <span class="expand-icon">+</span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <p class="program-p" data-i18n="program.services_text"></p>
+              </div>
             </div>
-            <a href="index.html" class="cta-button" style="display: inline-block; margin-top: 2rem;">Volver al inicio</a>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-card" onclick="toggleExpand(this)">
+              <div class="timeline-header">
+                <div class="card-title-section">
+                  <h3 class="program-title" data-i18n="program.evaluation_title">Modificaciones a Sistemas de Evaluación</h3>
+                </div>
+                <div class="card-summary-section">
+                  <p class="program-preview" data-i18n="program.evaluation_resume">Reducir mínimos exigibles, eliminar asistencia obligatoria y regular tiempos de examen.</p>
+                  <span class="expand-icon">+</span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <p class="program-p" data-i18n="program.evaluation_text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-card" onclick="toggleExpand(this)">
+              <div class="timeline-header">
+                <div class="card-title-section">
+                  <h3 class="program-title" data-i18n="program.iguality_title">Diversidad, Igualdad e Integración</h3>
+                </div>
+                <div class="card-summary-section">
+                  <p class="program-preview" data-i18n="program.iguality_resume">Accesibilidad universal, adaptación para neurodivergencias y espacios seguros.</p>
+                  <span class="expand-icon">+</span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <p class="program-p" data-i18n="program.iguality_text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-card" onclick="toggleExpand(this)">
+              <div class="timeline-header">
+                <div class="card-title-section">
+                  <h3 class="program-title" data-i18n="program.housing_title">Vivienda Asequible</h3>
+                </div>
+                <div class="card-summary-section">
+                  <p class="program-preview" data-i18n="program.housing_resume">Bolsa de vivienda verificada con precios justos y convenios con residencias.</p>
+                  <span class="expand-icon">+</span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <p class="program-p" data-i18n="program.housing_text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-card" onclick="toggleExpand(this)">
+              <div class="timeline-header">
+                <div class="card-title-section">
+                  <h3 class="program-title" data-i18n="program.digital_title">Transporte y Transformación Digital</h3>
+                </div>
+                <div class="card-summary-section">
+                  <p class="program-preview" data-i18n="program.digital_resume">Mejora de movilidad y portal unificado e intuitivo para gestión estudiantil.</p>
+                  <span class="expand-icon">+</span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <p lass="program-p" data-i18n="program.digital_text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-card" onclick="toggleExpand(this)">
+              <div class="timeline-header">
+                <div class="card-title-section">
+                  <h3 class="program-title" data-i18n="program.rights_title">Defensa de Derechos Fundamentales</h3>
+                </div>
+                <div class="card-summary-section">
+                  <p class="program-preview" data-i18n="program.rights_resume">Blindar carta de derechos y potenciar la figura del Valedor Universitario.</p>
+                  <span class="expand-icon">+</span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <p class="program-p" data-i18n="program.rights_text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slogan Section -->
+        <div class="slogan-section">
+          <p class="slogan-text" data-i18n="end_text"></p>
+          <a href="index.html" class="back-button" data-i18n="program.back">← Volver al inicio</a>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contacto" class="section contact-section">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="sections.contact">Contacto</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="section-content">
+          <div class="contact-box">
+            <h3 data-i18n="contact.title">¿Preguntas o sugerencias?</h3>
+            <p data-i18n="contact.subtitle">Me encantaría escuchar tus ideas y propuestas</p>
+            <div class="contact-methods">
+              <a href="mailto:manu@esei.uvigo.es" class="contact-method">
+                <span class="contact-icon">📧</span>
+                <span data-i18n="contact.email">Email</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
     </main>
+   
 
     <!-- Footer -->
     <footer class="footer">
@@ -58,5 +180,27 @@
 
   <script src="i18n.js"></script>
   <script src="script.js"></script>
+  <script>
+    /**
+     * Toggles the expand state of a timeline card
+     * @param {HTMLElement} card - The timeline card element to toggle
+     */
+    function toggleExpand(card) {
+      const isExpanded = card.classList.contains('expanded');
+      
+      // Close all other cards
+      document.querySelectorAll('.timeline-card').forEach(c => {
+        if (c !== card && c.classList.contains('expanded')) {
+          c.classList.remove('expanded');
+          c.querySelector('.expand-icon').textContent = '+';
+        }
+      });
+
+      // Toggle current card
+      card.classList.toggle('expanded');
+      const icon = card.querySelector('.expand-icon');
+      icon.textContent = isExpanded ? '+' : '−';
+    }
+  </script>
 </body>
 </html>

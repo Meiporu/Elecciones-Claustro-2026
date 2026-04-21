@@ -64,16 +64,6 @@ const translations = {
     'experience.item15_date': '2024 - Actualidad',
     'experience.item15_title': 'Representante en la Estudiante Board ATHENA',
     'experience.item15_text': 'Miembro y representante de la UVIGO en la alianza europea ATHENA.',
-    'program.transparency_title': 'Transparencia Radical',
-    'program.transparency_text': 'Información accesible sobre decisiones académicas, uso de recursos y proyectos en marcha.',
-    'program.participation_title': 'Participación Activa',
-    'program.participation_text': 'Mecanismos directos para que el estudiantado proponga ideas y vote en decisiones importantes.',
-    'program.quality_title': 'Calidad Docente',
-    'program.quality_text': 'Propuestas para fomentar retroalimentación constructiva y mejora continua en planes de estudio.',
-    'program.services_title': 'Servicios Estudiantiles',
-    'program.services_text': 'Mayor atención a asesoría académica, apoyo mental y movilidad dentro del campus.',
-    'program.coming_soon_title': '¡Próximamente!',
-    'program.coming_soon_text': 'El programa electoral se descubrirá el Día 22 a las 18:00 Hora española',
 
     'achievements.events_title': 'Jornadas y Eventos',
     'achievements.events_text': 'Organización exitosa de mesas redondas con participación de estudiantes y profesorado.',
@@ -104,6 +94,40 @@ const translations = {
     'contact.subtitle': 'Me encantaría escuchar tus ideas y propuestas',
     'contact.email': 'Email',
     'contact.form': 'Formulario de Contacto',
+
+
+
+    'program.evaluation_title': 'Modificaciones a los sistemas de evaluación',
+    'program.evaluation_resume': 'Reducir mínimos exigibles, eliminar asistencia obligatoria y regular tiempos de examen.',
+    'program.evaluation_text': 'La univerisdad de Vigo en 2022 aprobó modificaciones sustanciales en la normativa de evalcuación. Entre ellas destaca una mejora considerable al convertir las evaluaciones continuas en algo plausible, pasando de la posibilidad de exámenes que valieran casi el 100% de la nota, a que cada prueba valiera como máximo un 40%. \n\n Pero aún asi hay una cosa que me quita el sueño, ¿De qué sirve eso, si pueden exigirme un 7 en un parcial para no ir a 2º opotunidad directamente? \n De ahí mi propuesta, el reducir de forma considerable los mínimos exigibles a un 4 sobre 10 puntos, para poder continua cursando esta modalidad de evaluación.\n Otras mejoras por las que pienso luchar son la eliminación de la asistencia a clase obligatoria, la regulación de los tiempos para realizar exámenes y la implantación de un sistema verificador de la correcta impliación docente.',
+
+    'program.iguality_title': 'Diversidad, igualdad e integración real',
+    'program.iguality_resume': 'Accesibilidad universal, adaptación para neurodivergencias y espacios seguros.',
+    'program.iguality_text': 'A menudo vemos cómo la palabra "igualdad" se utiliza en la Universidad solo para cubrir expedientes o rellenar folletos, pero la realidad en los pasillos de Marcosende o Torrecedeira es muy distinta... Un buen ejemplo de esto, el reciente caso sexual abandonado en la facultad de filología en Vigo. Todavía existen barreras arquitectónicas que dificultan el día a día y, lo que es más invisible, una falta total de adaptación para estudiantes con neurodivergencias como TDAH o TEA. \n\n Mi compromiso es transformar esos "protocolos de papel" en acciones directas. Lucharé por una accesibilidad universal que no deje a nadie fuera y por la formación obligatoria del profesorado en materia de integración. No podemos permitir que el sistema sea un obstáculo adicional. Queremos espacios seguros, libres de acoso y donde la diversidad sea una ventaja, no un problema burocrático.',
+
+    'program.services_title': 'Servicios Estudiantiles y Salud Mental',
+    'program.services_resume': 'Revisión de precios en comedores, mejora de instalaciones y refuerzo psicológico.',
+    'program.services_text': "El coste de vida para un estudiante no deja de subir, y los servicios de la Universidad parecen no darse cuenta. Las cafeterías y las instalaciones deportivas no deberían ser un negocio, sino un apoyo para nosotros. Además, el Gabinete Psicopedagógico está actualmente siendo reemplazado por un 'Programa de Acompañamiento psicologico al estudiantado', con un total de 27 plazas para los casi 19000 alumnos de la universidad. \n\n Propongo una revisión de los precios públicos en los comedores universitarios para que comer sano no sea un lujo, además de una inversión real en la mejora de los gimnasios y pabellones. Pero, sobre todo, voy a exigir un refuerzo inmediato de los servicios de psicología. Es contradictorio que se nos hable de rendimiento académico mientras se ignoran las necesidades básicas.",
+
+    'program.housing_title': 'Vivienda digna y asequible para estudiantes',
+    'program.housing_resume': 'Bolsa de vivienda verificada con precios justos y convenios con residencias.',
+    'program.housing_text': 'Encontrar un piso se ha convertido en una odisea que quita tiempo de estudio y genera una ansiedad económica brutal en las familias. El mercado de alquiler está disparado y la oferta de residencias públicas es a todas luces insuficiente para el volumen de estudiantes que movemos. \n\n Mi propuesta se centra en concentrar el foco de la Universidad de Vigo y sus medios para la creación de una Bolsa de Vivienda Universitaria Verificada que actúe como intermediaria, asegurando precios justos y condiciones dignas sin cláusulas abusivas. \n\n También presionaré para la firma de convenios con residencias privadas para reservar plazas con descuentos para becados y así como una redistribución de las ayudas propias de alojamiento.',
+
+    'program.digital_title': 'Transporte y transformación digital',
+    'program.digital_resume': 'Mejora de movilidad y portal digital unificado.',
+    'program.digital_text': 'La movilidad en el Campus de Ourense es una asignatura pendiente que las autoridades parecen ignorar año tras año. Mientras en otros lugares se debate sobre frecuencias, en Ourense sufrimos la falta total de una línea de autobús dedicada íntegramente a la vida universitaria, viéndonos obligados a depender de rutas urbanas que cambian arbitrariamente y que no respetan nuestros horarios de clase. \n\n Voy a pelear por una interlocución directa con el Concello y el apoyo del Vicerrectorado para que el transporte en Ourense sea, por fin, una herramienta y no un obstáculo diario. \n\n Pero la desconexión no es solo física, también es digital. Actualmente, plataformas como Sigma y la Secretaría Virtual son auténticos laberintos burocráticos. Es inaceptable que en pleno 2026 sigan fallando en momentos críticos como las automatrículas o que nos obliguen a desplazarnos físicamente para trámites que deberían ser automáticos. Mi propuesta es la creación de una Intranet moderna y unificada, al estilo de las grandes universidades europeas. Un portal del estudiante único, intuitivo y eficaz, donde la gestión de becas, notas y trámites administrativos se solucione con un solo clic. ',
+    
+    'program.rights_title': 'Defensa de tus derechos fundamentales',
+    'program.rights_resume': 'Blindar carta de derechos y potenciar la figura del Valedor Universitario.',
+    'program.rights_text': 'Ser estudiante no significa perder tus derechos como ciudadano, pero a veces parece que dentro del campus las normas las dictan solo unos pocos. El derecho al paro académico es a menudo cuestionado o se nos castiga con cambios de fecha de exámenes de forma arbitraria cuando intentamos ejercer nuestra voz. \n\n Mi propuesta es blindar la Carta de Derechos del Estudiante para que no haya ambigüedades. Trabajaré para potenciar la figura del Valedor do Universitario, dotándolo de más recursos y visibilidad además de facilitar su accesibilidad al estudiantado. Queremos un sistema de evaluación de la labor docente que sea transparente y cuyas quejas tengan consecuencias reales.',
+
+    'program.back': '← Volver al inicio',
+    
+    'end_text': 'No estoy aquí solo para estar en las reuniones, estoy aquí para asegurar que tu voz tenga el peso que se merece en cada decisión de nuestra universidad',
+
+    'program.coming_soon_title': '¡Próximamente!',
+    'program.coming_soon_text': 'El programa electoral se descubrirá el Día 22 a las 18:00 Hora española',
+
 
     'footer.text': 'Elecciones Claustro 2026 • Manuel Torrecilla',
   },
@@ -174,13 +198,39 @@ const translations = {
     'experience.item15_text': 'Member and UVIGO representative in the European ATHENA alliance.',
 
     'program.transparency_title': 'Radical Transparency',
+    'program.transparency_resume': 'Accessible information about academic decisions, resources and projects.',
     'program.transparency_text': 'Accessible information about academic decisions, resource use and ongoing projects.',
     'program.participation_title': 'Active Participation',
+    'program.participation_resume': 'Direct mechanisms to propose ideas and vote on decisions.',
     'program.participation_text': 'Direct mechanisms for students to propose ideas and vote on important decisions.',
     'program.quality_title': 'Teaching Quality',
+    'program.quality_resume': 'Constructive feedback and continuous improvement in study plans.',
     'program.quality_text': 'Proposals to encourage constructive feedback and continuous improvement in study plans.',
-    'program.services_title': 'Student Services',
-    'program.services_text': 'Greater attention to academic advising, mental health support and campus mobility.',
+    'program.services_title': 'Student Services and Mental Health',
+    'program.services_resume': 'Review of dining prices, improved facilities and psychological support.',
+    'program.services_text': 'The cost of living for a student keeps rising, and the University\'s services seem unaware. Cafeterias and sports facilities should not be a business, but support for us. Moreover, the Psycho-pedagogical Office is currently being replaced by a "Psychological Accompaniment Program for Students" with only 27 positions for nearly 19,000 university students. I propose a review of public prices in university dining halls so that healthy eating is not a luxury, as well as real investment in improving gyms and pavilions. But above all, I will demand immediate reinforcement of psychology services. It is contradictory to talk to us about academic performance while ignoring basic needs.',
+
+    'program.evaluation_title': 'Evaluation System Modifications',
+    'program.evaluation_resume': 'Reduce minimum requirements, eliminate mandatory attendance and regulate exam times.',
+    'program.evaluation_text': 'The University of Vigo approved substantial modifications to evaluation regulations in 2022. A significant improvement was achieved by making continuous assessment more feasible, moving from exams worth almost 100% of the grade to each test worth a maximum of 40%. But there is one thing that keeps me awake: what good is that if they can require me to score 7 on a partial to avoid second chance directly? From there my proposal to significantly reduce the minimum requirements to 4 out of 10 points to continue with this evaluation modality. Other improvements I will fight for are the elimination of mandatory class attendance, regulation of exam times and the implementation of a verification system for proper teaching commitment.',
+    
+    'program.iguality_title': 'Diversity, Equality and Real Integration',
+    'program.iguality_resume': 'Universal accessibility, adaptation for neurodiversity and safe spaces.',
+    'program.iguality_text': 'We often see how the word "equality" is used in the University only to cover files or fill brochures, but the reality in the halls of Marcosende or Torrecedeira is very different... A good example is the recent sexual case abandoned in the Vigo philology faculty. There are still architectural barriers that hinder daily life and, more invisibly, a total lack of adaptation for students with neurodivergences like ADHD or ASD. My commitment is to transform those "paper protocols" into direct actions. I will fight for universal accessibility that leaves no one out and for mandatory teacher training in integration matters. We cannot allow the system to be an additional obstacle. We want safe spaces, free from harassment and where diversity is an advantage, not a bureaucratic problem.',
+    
+    'program.housing_title': 'Decent and affordable student housing',
+    'program.housing_resume': 'Verified housing pool with fair prices and residence agreements.',
+    'program.housing_text': 'Finding an apartment has become an odyssey that takes away study time and generates brutal economic anxiety for families. The rental market is skyrocketing and the supply of public residences is clearly insufficient for the volume of students we have. My proposal focuses on concentrating the University of Vigo\'s efforts and resources to create a Verified University Housing Pool that acts as an intermediary, ensuring fair prices and dignified conditions without abusive clauses. I will also push for agreements with private residences to reserve spaces with discounts for grant holders and a redistribution of housing aid.',
+    
+    'program.digital_title': 'Transportation and Digital Transformation',
+    'program.digital_resume': 'Mobility improvement and unified digital portal.',
+    'program.digital_text': 'Mobility on the Ourense Campus is a pending issue that authorities seem to ignore year after year. While other places debate frequencies, in Ourense we suffer from the complete lack of a bus line dedicated entirely to university life, forced to depend on urban routes that change arbitrarily and don\'t respect our class schedules. I will fight for direct dialogue with the City Council and support from the Vice-Rectorate so that transportation in Ourense becomes, finally, a tool and not a daily obstacle. But the disconnection is not just physical, it\'s also digital. Currently, platforms like Sigma and the Virtual Secretariat are authentic bureaucratic mazes. It is unacceptable that in 2026 they still fail at critical moments like online registration or force us to physically travel for procedures that should be automatic. My proposal is to create a modern and unified Intranet, like the great European universities. A single, intuitive and efficient student portal where grant, grade and administrative management is solved with one click.',
+    
+    'program.rights_title': 'Defense of Your Fundamental Rights',
+    'program.rights_resume': 'Strengthen student rights charter and empower the University Ombudsman.',
+    'program.rights_text': 'Being a student does not mean losing your rights as a citizen, but sometimes it seems that within the campus the rules are dictated only by a few. The right to academic strike is often questioned or we are punished with arbitrary exam date changes when we try to exercise our voice. My proposal is to protect the Student Rights Charter so there are no ambiguities. I will work to strengthen the figure of the University Ombudsman, providing it with more resources and visibility as well as facilitating its accessibility to students. We want a transparent system for evaluating teaching performance whose complaints have real consequences.',
+
+    'program.back': '← Back to home',
     'program.coming_soon_title': 'Coming Soon!',
     'program.coming_soon_text': 'The electoral program will be revealed on Day 22 at 18:00 Spanish Time',
 
@@ -273,13 +323,39 @@ const translations = {
     'experience.item15_text': 'Membro e representante da UVIGO na alianza europea ATHENA.',
 
     'program.transparency_title': 'Transparencia Radical',
-    'program.transparency_text': 'Información accesible sobre decisións académicas, uso de recursos e proxectos en marcha.',
+    'program.transparency_resume': 'Información accesible sobre decisiones académicas, uso de recursos y proyectos.',
+    'program.transparency_text': 'Información accesible sobre decisiones académicas, uso de recursos y proyectos en marcha.',
     'program.participation_title': 'Participación Activa',
-    'program.participation_text': 'Mecanismos directos para que o alumnado propoña ideas e vote en decisións importantes.',
-    'program.quality_title': 'Calidade Docente',
-    'program.quality_text': 'Propostas para fomentar retroalimentación constructiva e mellora continua en plans de estudo.',
-    'program.services_title': 'Servizos Estudantís',
-    'program.services_text': 'Maior atención a asesoría académica, apoio mental e mobilidade dentro do campus.',
+    'program.participation_resume': 'Mecanismos directos para proponer ideas y votar en decisiones.',
+    'program.participation_text': 'Mecanismos directos para que el estudiantado proponga ideas y vote en decisiones importantes.',
+    'program.quality_title': 'Calidad Docente',
+    'program.quality_resume': 'Retroalimentación constructiva y mejora continua en planes de estudio.',
+    'program.quality_text': 'Propuestas para fomentar retroalimentación constructiva y mejora continua en planes de estudio.',
+    'program.services_title': 'Servicios Estudiantiles y Salud Mental',
+    'program.services_resume': 'Asesoría académica, apoyo psicológico y mejora de instalaciones.',
+    'program.services_text': 'O custo de vida para un estudante non deixa de subir e os servizos da Universidade parecen non darse conta. As cafeterías e as instalacións deportivas non deberían ser un negocio, senón un apoio para nós. Ademáis, o Gabinete Psicopedagóxico está sendo substituído por un "Programa de Acompañamento psicolóxico ao estudiantado" con apenas 27 prazas para case 19.000 alumnos da universidade. Propoño unha revisión dos prezos públicos nos comedores universitarios para que comer sano non sexa un luxo, así como unha inversión real na mellora dos ximnasios e pabillóns. Pero, sobre todo, vou exixir un refuerzo inmediato dos servizos de psicoloxía. É contraditorio que se nos fale de rendimento académico mentres se ignoran as necesidades básicas.',
+
+    'program.evaluation_title': 'Modificacións aos sistemas de avaliación',
+    'program.evaluation_resume': 'Reducir mínimos esixibles, eliminar asistencia obrigatoria e regular tempos de exame.',
+    'program.evaluation_text': 'A Universidade de Vigo en 2022 aprobou modificacións sustanciais na normativa de evaluación. Destaca unha mellora considerable ao converter as avaliacións continuas en algo plausible, pasando da posibilidade de exames que valerren case o 100% da nota a que cada proba valera como máximo un 40%. Pero aínda así hai unha cousa que me quita o soño, ¿de que serve iso se me poden exixir un 7 nun parcial para non ir a 2ª oportunidade directamente? De aí a miña proposta de reducir de forma considerable os mínimos esixibles a un 4 sobre 10 puntos. Outras melloras polas que pienso loitar son a eliminación da asistencia a clase obrigatoria, a regulación dos tempos para realizar exames e a implantación dun sistema verificador da correcta implicación docente.',
+    
+    'program.iguality_title': 'Diversidade, igualdade e integración real',
+    'program.iguality_resume': 'Accesibilidade universal, adaptación para neurodiversidade e espazos seguros.',
+    'program.iguality_text': 'A miúdo vemos como a palabra "igualdade" se utiliza na Universidade só para cubrir expedientes ou encher folletos, pero a realidade nos pasillos de Marcosende ou Torrecedeira é moi distinta. Un bo exemplo disto é o recente caso sexual abandonado na facultade de filoloxía en Vigo. Aínda existen barreiras arquitectónicas que dificultan o día a día e, o que é máis invisible, unha falta total de adaptación para estudantes con neurodiversidades como TDAH ou TEA. O meu compromiso é transformar eses "protocolos de papel" en accións directas. Loitarei por unha accesibilidade universal que non deixe a ninguén fora e pola formación obrigatoria do profesorado en materia de integración. Non podemos permitir que o sistema sexa un obstáculo adicional. Queremos espazos seguros, libres de acoso e onde a diversidade sexa unha vantaxe.',
+    
+    'program.housing_title': 'Vivenda digna e asequible para estudantes',
+    'program.housing_resume': 'Bolsa de vivienda verificada con prezos xustos e convenios con residencias.',
+    'program.housing_text': 'Atopar un piso converteuse nunha odisea que quita tempo de estudo e xera unha ansiedade económica brutal nas familias. O mercado de aluguer está disparado e a oferta de residencias públicas é claramente insuficiente para o volume de estudantes que temos. A miña proposta se centra en concentrar o foco da Universidade de Vigo e os seus medios para a creación dunha Bolsa de Vivienda Universitaria Verificada que actúe como intermediaria, asegurando prezos xustos e condicións dignas sen cláusulas abusivas. Tamén preionarei pola firma de convenios con residencias privadas para reservar prazas con descontos para becados.',
+    
+    'program.digital_title': 'Transporte e transformación dixital',
+    'program.digital_resume': 'Mellora de mobilidade e portal dixital unificado.',
+    'program.digital_text': 'A mobilidade no Campus de Ourense é unha asignatura pendente que as autoridades parecen ignorar ano tras ano. Mentres noutros lugares se debate sobre frecuencias, en Ourense sufrimos a falta total dunha liña de autobús dedicada íntegramente á vida universitaria. Vou pelear por unha interlocución directa co Concello e o apoio do Vicerrectorado para que o transporte en Ourense sexa, por fin, unha ferramenta e non un obstáculo diario. Pero a desconexión non é só física, tamén é dixital. Actualmente, plataformas como Sigma e a Secretaría Virtual son auténticos labirintos burocráticos. É inaceptable que en pleno 2026 sigan fallando en momentos críticos como as automatrículas. A miña proposta é a creación dunha Intranet moderna e unificada. Un portal do estudante único, intuitivo e eficaz, onde a xestión de bolsas, notas e trámites administrativos se solucione cun só clic.',
+    
+    'program.rights_title': 'Defensa dos teus dereitos fundamentais',
+    'program.rights_resume': 'Blindar carta de dereitos e potenciar a figura do Valedor Universitario.',
+    'program.rights_text': 'Ser estudante non significa perder os teus dereitos como cidadán, pero ás veces parece que dentro do campus as normas as dictan só uns poucos. O dereito ao paro académico é a miúdo cuestionado ou se nos castiga con cambios de data de exames de forma arbitraria cando intentamos exercer a nosa voz. A miña proposta é blindar a Carta de Dereitos do Estudante para que non haxa ambigüidades. Traballarei para potenciar a figura do Valedor do Universitario, dotándoo de máis recursos e visibilidade. Queremos un sistema de avaliación da labor docente que sexa transparente e cuxa quejas teñan consecuencias reais.',
+
+    'program.back': '← Volver ao inicio',
     'program.coming_soon_title': '¡Próximamente!',
     'program.coming_soon_text': 'O programa electoral descubrirase o Día 22 ás 18:00 Hora española',
 
